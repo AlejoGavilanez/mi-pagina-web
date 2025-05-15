@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Sitio Personal</title>
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Milton Gavilanez</h1> <!-- Nombre completo -->
+    <p>Per asspera ad Astra </p> <!-- Subtítulo -->
+    <img src="chainsawman.jpg" alt="Foto de Avatar milton gavilanez" width="150"> <!-- Imagen personal o avatar -->
+  </header>
+
+  <!-- Menú de navegación -->
+  <nav>
+    <ul>
+      <li><a href="#sobremi">Sobre mí</a></li>
+      <li><a href="#intereses">Intereses</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#multimedia">Multimedia</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección Sobre mí -->
+  <section id="sobremi">
+    <h2>Sobre mí</h2>
+    <p>Soy <strong>estudiante de Ingeniería en Sistemas</strong> con interés en el <em>desarrollo de software</em>, la <mark>inteligencia artificial</mark> y el diseño web.</p>
+  </section>
+
+  <!-- Lista de intereses -->
+  <section id="intereses">
+    <h2>Mis intereses</h2>
+    <ul>
+      <li>🎮 Videojuegos</li>
+      <li>🌎 Aprender idiomas</li>
+    </ul>
+  </section>
+
+  <!-- Tabla de habilidades -->
+  <section id="habilidades">
+    <h2>Tabla de habilidades</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Habilidad</th>
+          <th>Nivel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ingles</td>
+          <td>Intermedio</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>Principiante</td>
+        </tr>
+        <tr>
+          <td>Java</td>
+          <td>Básico</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="2">En constante aprendizaje</td>
+        </tr>
+      </tfoot>
+    </table>
+  </section>
+
+  <!-- Sección Multimedia -->
+  <section id="multimedia">
+    <h2>Presentación en audio</h2>
+     <audio controls src="wrong.mp3"></audio>
+  </section>
+
+  <!-- Formulario de contacto -->
+  <section id="contacto">
+    <h2>Formulario de contacto</h2>
+    <form>
+      <label for="nombre">Nombre:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="edad">Edad:</label><br>
+      <input type="number" id="edad" name="edad" min="10" max="100" required><br><br>
+
+      <label>Género:</label><br>
+      <input type="radio" id="masculino" name="genero" value="Masculino" required>
+      <label for="masculino">Masculino</label><br>
+      <input type="radio" id="femenino" name="genero" value="Femenino">
+      <label for="femenino">Femenino</label><br><br>
+
+      <label for="intereses">Intereses:</label><br>
+      <select id="intereses" name="intereses" required>
+        <option value="">Seleccione una opción</option>
+        <option value="Programación">Programación</option>
+        <option value="Diseño">Diseño</option>
+        <option value="IA">Inteligencia Artificial</option>
+      </select><br><br>
+
+      <label for="comentarios">Comentarios:</label><br>
+      <textarea id="comentarios" name="comentarios" rows="4" cols="40"></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>&copy; 2025 Milton Gavilanez. Todos los derechos reservados.</p>
+    <p>
+      <a href="https://twitter.com" target="_blank">Twitter</a> |
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a> |
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </p>
+  </footer>
+
+</body>
+</html>
